@@ -1,4 +1,6 @@
-# Chaychoong Tap
+# Homebrew Tap
+
+A homebrew tap for my personal projects.
 
 ## How do I install these formulae?
 
@@ -13,6 +15,8 @@ tap "chaychoong/tap"
 brew "<formula>"
 ```
 
-## Documentation
+## Formulae
 
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+| Repository | Formula | Description |
+| ---------- | ------- | ----------- |
+| [OpusOne](https://github.com/chaychoong/OpusOne) | `font-opus-one` | A monospaced typeface for code |
