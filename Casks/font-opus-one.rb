@@ -1,6 +1,6 @@
 cask "font-opus-one" do
-  version "1.1"
-  sha256 "a0dcee246125492330b61c5bd85fb2f29e3e280e2b9890f3a15e1c65d470abc9"
+  version "1.2"
+  sha256 "c767ded11b24f63ffb548ea8fbba9620c450e12165cb65035e907c68821380ae"
 
   url "https://github.com/chaychoong/OpusOne/archive/refs/tags/v#{version}.tar.gz"
   name "Opus One"
