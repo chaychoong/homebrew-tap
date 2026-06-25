@@ -15,8 +15,9 @@ tap "chaychoong/tap"
 brew "<formula>"
 ```
 
-## Formulae
+## Formulae & casks
 
-| Repository | Formula | Description |
-| ---------- | ------- | ----------- |
+| Repository | Name | Description |
+| ---------- | ---- | ----------- |
 | [OpusOne](https://github.com/chaychoong/OpusOne) | `font-opus-one` | A monospaced typeface for code |
+| [jury](https://github.com/chaychoong/jury) | `jury` | Multi-model adversarial review tool |
