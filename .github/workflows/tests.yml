@@ -28,6 +28,11 @@ jobs:
 
       - run: brew test-bot --only-setup
 
+      # GoReleaser-published casks carry a cosmetic trailing blank line that
+      # `brew style` flags. Auto-correct fixable offenses before linting so the
+      # generated cask passes; genuine, non-correctable errors still fail here.
+      - run: brew style --fix Casks/*.rb
+
       - run: brew test-bot --only-tap-syntax
 
       - run: brew test-bot --only-formulae
