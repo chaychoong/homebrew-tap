@@ -5,21 +5,21 @@ class Mettle < Formula
   if OS.mac?
     if Hardware::CPU.arm?
       url "https://github.com/chaychoong/mettle/releases/download/v0.1.0/mettle-aarch64-apple-darwin.tar.xz"
-      sha256 "77ca9c42f3a253c435021472dca4c06135c5a64ac836bf2edefadd0d4b05b940"
+      sha256 "e4ec559bb71e5a729f67cd7fb377f46a95344a17cb89e38a2f7cde557c4cef33"
     end
     if Hardware::CPU.intel?
       url "https://github.com/chaychoong/mettle/releases/download/v0.1.0/mettle-x86_64-apple-darwin.tar.xz"
-      sha256 "326b26bfc14d370810755d517eab225384474ebc8eaee9e631e6b767092754eb"
+      sha256 "bd6b7b4af2e1198d819667562495aa2fe35fd41f0a5e65b781dafe239d26ef7d"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
       url "https://github.com/chaychoong/mettle/releases/download/v0.1.0/mettle-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "26fd039db0b404a92c6e067ee973fda77e2f7065c23ece1ffc58b3dcc07df0bf"
+      sha256 "e8a331a91924d7be66d3e5055706f56b7708bce33d2b49c5734716371890b514"
     end
     if Hardware::CPU.intel?
       url "https://github.com/chaychoong/mettle/releases/download/v0.1.0/mettle-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "47542721c4fd2e3967a77eb1bf1870d955908cff905be9696c3c821740cc4d27"
+      sha256 "352ee3901e512e8e0a41602c58132d3d1cbb805eadfcd5e5b6952623d50b7836"
     end
   end
   license "MPL-2.0"
