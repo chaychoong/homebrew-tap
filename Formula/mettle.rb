@@ -1,25 +1,25 @@
 class Mettle < Formula
   desc "A Rust reimplementation of the Alloy 6 language and analyzer"
   homepage "https://github.com/chaychoong/mettle"
-  version "0.1.0"
+  version "0.1.1"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/chaychoong/mettle/releases/download/v0.1.0/mettle-aarch64-apple-darwin.tar.xz"
-      sha256 "e4ec559bb71e5a729f67cd7fb377f46a95344a17cb89e38a2f7cde557c4cef33"
+      url "https://github.com/chaychoong/mettle/releases/download/v0.1.1/mettle-aarch64-apple-darwin.tar.xz"
+      sha256 "2539418858c1e9efc5493ce6799b54feaa82d516489c51923cd1c9f03c69ade8"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chaychoong/mettle/releases/download/v0.1.0/mettle-x86_64-apple-darwin.tar.xz"
-      sha256 "bd6b7b4af2e1198d819667562495aa2fe35fd41f0a5e65b781dafe239d26ef7d"
+      url "https://github.com/chaychoong/mettle/releases/download/v0.1.1/mettle-x86_64-apple-darwin.tar.xz"
+      sha256 "9a15246541ac663adafe730859f8aed9f37c6ab9a9a87a70ba0381afdaafd23f"
     end
   end
   if OS.linux?
     if Hardware::CPU.arm?
-      url "https://github.com/chaychoong/mettle/releases/download/v0.1.0/mettle-aarch64-unknown-linux-gnu.tar.xz"
-      sha256 "e8a331a91924d7be66d3e5055706f56b7708bce33d2b49c5734716371890b514"
+      url "https://github.com/chaychoong/mettle/releases/download/v0.1.1/mettle-aarch64-unknown-linux-gnu.tar.xz"
+      sha256 "e48dbde1ca616ad802022d651825b25ce41e7842c281f6dcb587f8db50328216"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/chaychoong/mettle/releases/download/v0.1.0/mettle-x86_64-unknown-linux-gnu.tar.xz"
-      sha256 "352ee3901e512e8e0a41602c58132d3d1cbb805eadfcd5e5b6952623d50b7836"
+      url "https://github.com/chaychoong/mettle/releases/download/v0.1.1/mettle-x86_64-unknown-linux-gnu.tar.xz"
+      sha256 "d90d2b2f4322736e61e396c6c708ecd4648abb5af5689450c753277d5e768262"
     end
   end
   license "MPL-2.0"
